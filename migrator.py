@@ -73,7 +73,7 @@ def main():
         videos_ids = get_youtube_videos_ids(spotify_playlist, ytmusic_client)
 
         added_tracks = ytmusic_client.add_playlist_items(
-            playlistId=yt_playlist_id, videoIds=videos_ids
+            playlistId=yt_playlist_id, videoIds=videos_ids,
         )
 
         if added_tracks["status"] == "STATUS_FAILED":
