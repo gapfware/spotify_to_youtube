@@ -1,8 +1,8 @@
-# Spotify to YouTube Music Playlist Migration Script
+# Spotify to YouTube Music - Playlist Migration Script
 
 ## Description
 
-This script allows you to migrate your playlists from Spotify to YouTube Music seamlessly. It utilizes the Spotipy and ytmusicapi Python libraries to access and transfer your playlists between the two platforms.
+This script allows you to migrate your playlists from Spotify to YouTube Music. It utilizes the Spotipy and ytmusicapi Python libraries to access and transfer your playlists between the two platforms.
 
 ## Prerequisites
 
@@ -70,6 +70,5 @@ This project is not affiliated with Spotify or YouTube Music. Use this script re
 License
 This project is licensed under the MIT License.
 
-```makefile
+
 Make sure to replace placeholders like `your_spotify_client_id`, `your_spotify_client_secret`, `your_redirect_uri`, and update URLs and paths as necessary. Also, adapt the installation and usage instructions according to your project structure and preferences.
-```
