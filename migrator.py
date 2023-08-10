@@ -5,10 +5,14 @@ from ytmusicapi import YTMusic
 from dotenv import load_dotenv
 from urllib.parse import urlparse
 from spotipy.oauth2 import SpotifyClientCredentials
+from sys import argv
 
 
 def get_playlist_id():
-    playlist_url = input("Enter spotify playlist url: ")
+    if len(argv) == 2:
+        playlist_url = argv[1]
+    else:
+        playlist_url = input("Enter spotify playlist url: ")
     parsed_url = urlparse(playlist_url)
     path = parsed_url.path
     path_parts = path.split("/")
